@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">TSCoin</string>
+    <string name="app_name">钱宝宝</string>
+
+    <string name="default_number_0">0</string>
+    <string name="default_tag">无标签</string>
+    <string name="str_yuan">元</string>
+
+    <string name="text_bt_main_back">退格</string>
+    <string name="text_bt_main_save">保存</string>
+    <string name="text_bt_main_number_0">0</string>
+    <string name="text_bt_main_number_1">1</string>
+    <string name="text_bt_main_number_2">2</string>
+    <string name="text_bt_main_number_3">3</string>
+    <string name="text_bt_main_number_4">4</string>
+    <string name="text_bt_main_number_5">5</string>
+    <string name="text_bt_main_number_6">6</string>
+    <string name="text_bt_main_number_7">7</string>
+    <string name="text_bt_main_number_8">8</string>
+    <string name="text_bt_main_number_9">9</string>
+
 </resources>

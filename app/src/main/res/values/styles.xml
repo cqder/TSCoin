@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -8,4 +8,23 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="my_main_keyboard_button">
+        <item name="android:layout_rowWeight" tools:targetApi="lollipop">1</item>
+        <item name="android:layout_columnWeight" tools:targetApi="lollipop">1</item>
+        <item name="android:background">@color/bg_main_button</item>
+    </style>
+
+
+    <style name="my_main_keyboard_image_button">
+        <item name="android:layout_rowWeight" tools:targetApi="lollipop">1</item>
+        <item name="android:layout_columnWeight" tools:targetApi="lollipop">1</item>
+        <item name="android:background">@color/bg_main_button</item>
+        <item name="android:scaleX">0.5</item>
+        <item name="android:scaleY">0.5</item>
+    </style>
+
+    <style name="style_table_row">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 </resources>
