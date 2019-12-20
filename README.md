@@ -1,6 +1,6 @@
 # TSCoin
 
-一个记账的APP,抄袭了CoCoin[https://github.com/Nightonke/CoCoin]的设计,全用自己的代码实现,无三方库.
+一个记账的APP,抄袭了CoCoin[https://github.com/Nightonke/CoCoin]  的设计,全用自己的代码实现,无三方库.
 
 数据库设计抄袭了一个DatabaseDemo[https://github.com/xujinping/DatabaseDemo]
 
