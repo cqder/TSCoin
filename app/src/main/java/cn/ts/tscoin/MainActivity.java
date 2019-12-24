@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         context = this;
         //得到是否是安装过本软件
-        SharedPreferences preferences = context.getSharedPreferences("cqder", MODE_PRIVATE);
+        SharedPreferences preferences = context.getSharedPreferences("ts", MODE_PRIVATE);
         boolean isInstall = preferences.getBoolean(KEY_IS_INSTALL, false);
 
         if (!isInstall) {
@@ -70,7 +70,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         initView();
-//        Log.w("cqder", getAllRecord().toString());
     }
 
     /**
@@ -185,7 +184,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 textViewTag.setText(tag);
                 break;
         }
-//        Log.w("cqder", "money is " + money);
         showMoney();
     }
 
@@ -264,7 +262,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     // 2019/12/9 添加Tag按钮
 
-    // 判断是否是第一次登录,弃用,初次安装没有数据库文件,运行会报错
+    // 判断是否是第一次登录,弃用,初次安装没有数据库,运行会报错
 //    private boolean isInstall() {
 //        DBManager dirtManager = new DBManager(context, TSDirt.class);
 //        List<TSDirt> dirtList = dirtManager.findByArgs(TSDirt.class, "key=?", new String[]{KEY_IS_INSTALL});
